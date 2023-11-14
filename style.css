@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0;}
+
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.navbar{
+    background-color: #0C422F;
+    height: 12vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+}
+.navbar p{
+    font-size: 95px;
+    color: white;
+    font-family: boysen;
+}
+mark.yellow{
+    background: none;
+    color: yellow;
+}
+.body{
+    height: 80vh;
+    background-color: whitesmoke;
+}
+footer{
+    height: 6vh;
+    background-color: #0C422F;
+}
+.icon{
+    background: url('imgs/sprite3.png') no-repeat;
+	width: 66px;
+	height: 66px;
+}
+#facebook{
+	width: 66px;
+	height: 66px;
+}
+@font-face {
+    font-family: boysen;
+    src: url(boysenfont/OTF/bold.otf);
+}
